@@ -12,7 +12,7 @@
 
 
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 /******************* NAVBAR **************************/
@@ -56,8 +56,7 @@ nav ul li{
   border-top: .1875rem solid var(--primary-orange);
 }
 
-/************************Hearder********************************/
-
+/******************* HEADER **************************/
 .header-wraper{
   position: relative;
   background: url(Website-Design-Background.jpg);
@@ -126,5 +125,30 @@ nav ul li{
 @media(max-width: 768px){
   .class-particle{
     display: none;
+  }
+}
+
+/******************* ABOUTME **************************/
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img{
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about-heading{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px){
+  .profile-img{
+    width: 10rem;
   }
 }
