@@ -35,7 +35,7 @@ const Contacts = () => {
       }).catch(err=> console.log(err));
   };
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
     <form ref={form} onSubmit={handleSubmit(onSubmit)}>
         <div className="text-center">
             <h1>contact me</h1>
