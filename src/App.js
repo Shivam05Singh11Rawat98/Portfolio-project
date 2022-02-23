@@ -8,6 +8,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
       <Projects />
       <Education/>
       <Skills/>
+      <Contacts />
     </div>
   );
 }
